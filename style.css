@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+header {
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    color: whitesmoke;
+    background-color: #122A57;
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    align-items:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+    
+}
+
+mainContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.img {
+    height: 180px;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 80px;
+    color: #111111;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+marcasContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.marcas {
+    height: 800px;
+    width: 800px;
+    justify-content: center;
+    margin-left: 45px;
+}
+
+quemSomosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #122A57;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    color:whitesmoke;
+    padding-right: 25px;
+    padding-left: 25px;
+}
